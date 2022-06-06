@@ -1,6 +1,4 @@
-FROM ubuntu:16.04
-
-MAINTAINER cuong.ngo
+FROM ubuntu:18.04
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
@@ -53,7 +51,6 @@ RUN apt-get update && apt-get install -y --allow-remove-essential \
         vim \
         nano \
         php7.4-gd \
-        npm \
         telnetd \
     && apt-get clean
 
