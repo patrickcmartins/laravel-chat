@@ -7,7 +7,7 @@
             <div>
                 <div class="chat">
                   <div class="chat-title">
-                    <h1>Chatroom</h1>
+                    <h1>CHAT</h1>
                   </div>
                   <div class="messages">
                     <div class="messages-content">
@@ -21,7 +21,7 @@
                       id="msgContent"
                     />
                     <button type="button" class="message-submit" id="btnSend">
-                      Send
+                      Enviar
                     </button>
                   </div>
                 </div>
@@ -30,7 +30,7 @@
         <div class="col-md-2">
             <div class="users-online">
                 <button type="button" class="btn btn-primary">
-                    Users online: <span class="badge badge-light" id="userOnline"></span>
+                    Usuários online: <span class="badge badge-light" id="userOnline"></span>
                 </button>
                 <div class="online-users">
                     <div class="d-flex flex-column mb-3 available-users">

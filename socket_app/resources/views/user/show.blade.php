@@ -33,7 +33,7 @@
                                     @if (false === empty($room) && $room['room_id'] == $room['confirm_room'])
                                         <a href="{{route('rooms.enter', ['room_id' => $room['room_id']])}}" class="alert-link"><i class="fas fa-comments"></i> Chat</a>
                                     @else
-                                        <a href="{{route("users.connect", ["id" => $user->id])}}" class="alert-link"><i class="fas fa-user-plus"></i> Connect</a>
+                                        <a href="{{route("users.connect", ["id" => $user->id])}}" class="alert-link"><i class="fas fa-user-plus"></i> Conectar</a>
                                     @endif
                                     
                                 </div>
